@@ -16,4 +16,119 @@ Fonts:
 - Proxima Nova
 - Avenir
 
-*/
+*/body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fdd835;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.buttons a {
+  margin-left: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #000;
+  color: white;
+}
+
+.btn.secondary {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero .splash-img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80%;
+  background: rgba(0,0,0,0.6);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero .subhead {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: #fff;
+}
+
+.image-side,
+.text-side {
+  flex: 1 1 300px;
+  padding: 1rem;
+}
+
+.image-side img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.impact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.caption {
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.bottom-bar {
+  padding: 1rem;
+  text-align: center;
+  background: #fdd835;
+}
+
+.bottom-bar a {
+  font-weight: bold;
+  color: #000;
+}
